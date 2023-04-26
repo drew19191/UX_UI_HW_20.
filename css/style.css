@@ -14,8 +14,10 @@ header {
 
 
 button{
-width: auto%;
-height: auto;
+padding: "0%"
+}
+.dropdown{
+  height: 50px;
 }
 .btn {
   height: 100px;
