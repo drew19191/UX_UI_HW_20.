@@ -9,9 +9,14 @@ header {
   background-color: white;
   padding: 0px;
   height: 100px;
+
 }
 
 
+button{
+width: auto%;
+height: auto;
+}
 .btn {
   height: 100px;
   
@@ -25,9 +30,7 @@ header {
   font-size: 22px;
 }
 
-#dropDown {
-  display: none;
-}
+
 #toggle {
   background-color: #B1A296;
   padding: 0px;
@@ -56,9 +59,8 @@ nav ul{
   display: none;
 }
 
-header h2 {
 
-}
+
 header li {
   display: inline-block;
   padding: 0px 5px;
@@ -95,8 +97,15 @@ header p {
   
   
 }
-
-
+#workGrid{
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+}
+.card{
+  display: flex;
+  text-align: center;
+}
 
 h1 {
   text-align: center;
@@ -105,13 +114,6 @@ h1 {
 .skills  {
   max-width: 300px;
   text-align: center;}
-
-
-.workGrid{
-  display: flex;
-  justify-content: space-around;
-  text-align: center; 
-}
 
 
 footer {
@@ -128,5 +130,9 @@ footer {
   justify-content: flex-end;
 }
 
-
+@media (max-width: 768px) {
+  .card-homework {
+    width: 100%;
+  }
+}
 
